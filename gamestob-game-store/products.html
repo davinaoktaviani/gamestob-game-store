@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameStoB | Products</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+
+    <div class="logo">
+        Game<span>StoB</span>
+    </div>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+    </button>
+
+    <nav id="mainNav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a class="active" href="products.html">Products</a></li>
+            <li><a href="purchase.html">Purchase</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="location.html">Locations</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<section class="products-banner">
+
+    <h1>Game Catalog</h1>
+
+    <p>
+        Discover authentic games, DLCs, and best-selling titles from GameStoB.
+    </p>
+
+</section>
+
+<section class="products-container">
+
+    <aside class="filter-panel">
+
+        <h2>Filters</h2>
+
+        <input
+        type="text"
+        id="searchInput"
+        placeholder="Search games...">
+
+        <select id="genreFilter">
+
+            <option value="all">All Genres</option>
+            <option value="Action">Action</option>
+            <option value="Adventure">Adventure</option>
+            <option value="RPG">RPG</option>
+            <option value="Simulation">Simulation</option>
+            <option value="Horror">Horror</option>
+            <option value="Sports">Sports</option>
+            <option value="Racing">Racing</option>
+
+        </select>
+
+        <select id="platformFilter">
+
+            <option value="all">All Platforms</option>
+            <option value="PC">PC</option>
+            <option value="PS5">PS5</option>
+            <option value="Xbox">Xbox</option>
+
+        </select>
+
+    </aside>
+
+    <main class="products-area">
+
+        <div class="top-bar">
+
+            <h2 id="resultCount">
+                0 Games
+            </h2>
+
+            <select id="sortPrice">
+
+                <option value="default">Sort By</option>
+                <option value="low">Price: Low to High</option>
+                <option value="high">Price: High to Low</option>
+
+            </select>
+
+        </div>
+
+        <div
+        class="products-grid"
+        id="productsGrid">
+
+        </div>
+
+    </main>
+
+</section>
+
+<footer>
+
+    <div class="footer-container">
+
+        <h3>GameStoB</h3>
+
+        <div class="footer-links">
+
+            <a href="home.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="purchase.html">Purchase</a>
+            <a href="about.html">About Us</a>
+            <a href="location.html">Location</a>
+
+        </div>
+
+        <p>© 2026 GameStoB. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+
+<script src="js/placeholder.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/products.js"></script>
+
+</body>
+</html>
